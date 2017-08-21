@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="16" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ANZ Mortgage" duration-ms="220067" started-at="2017-08-21T16:41:27Z" finished-at="2017-08-21T16:45:07Z">
+    <groups>
+    </groups>
+    <test name="ANZMortage Automation" duration-ms="220067" started-at="2017-08-21T16:41:27Z" finished-at="2017-08-21T16:45:07Z">
+      <class name="com.anzmortgage.scripts.RepaymentsCalculatorTestscript">
+        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="Precondition" is-config="true" duration-ms="27702" started-at="2017-08-21T22:13:46Z" finished-at="2017-08-21T22:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Precondition -->
+        <test-method status="PASS" signature="TC01_VerifyRepaymentsPage()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="TC01_VerifyRepaymentsPage" duration-ms="27174" started-at="2017-08-21T22:14:13Z" finished-at="2017-08-21T22:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_VerifyRepaymentsPage -->
+        <test-method status="PASS" signature="TC04_CalculateRepayments_Scenario1()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="TC04_CalculateRepayments_Scenario1" duration-ms="16469" started-at="2017-08-21T22:14:40Z" finished-at="2017-08-21T22:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_CalculateRepayments_Scenario1 -->
+        <test-method status="PASS" signature="TC05_VerifyMonthlyRepayments_Scenario1()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="TC05_VerifyMonthlyRepayments_Scenario1" duration-ms="402" started-at="2017-08-21T22:14:57Z" finished-at="2017-08-21T22:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_VerifyMonthlyRepayments_Scenario1 -->
+        <test-method status="PASS" signature="TC06_createScenario()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="TC06_createScenario" duration-ms="292" started-at="2017-08-21T22:14:57Z" finished-at="2017-08-21T22:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_createScenario -->
+        <test-method status="PASS" signature="TC07_CalculateRepayments_Scenario2()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="TC07_CalculateRepayments_Scenario2" duration-ms="6748" started-at="2017-08-21T22:14:58Z" finished-at="2017-08-21T22:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_CalculateRepayments_Scenario2 -->
+        <test-method status="PASS" signature="TC08_VerifyFortnightlyRepayments_Scenario2()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="TC08_VerifyFortnightlyRepayments_Scenario2" duration-ms="1747" started-at="2017-08-21T22:15:04Z" finished-at="2017-08-21T22:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_VerifyFortnightlyRepayments_Scenario2 -->
+        <test-method status="PASS" signature="TC09_VerifyScenarioComparionResult()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="TC09_VerifyScenarioComparionResult" duration-ms="97" started-at="2017-08-21T22:15:06Z" finished-at="2017-08-21T22:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_VerifyScenarioComparionResult -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:com.anzmortgage.scripts.RepaymentsCalculatorTestscript@462ac22a]" name="PostCondition" is-config="true" duration-ms="1076" started-at="2017-08-21T22:15:06Z" finished-at="2017-08-21T22:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- com.anzmortgage.scripts.RepaymentsCalculatorTestscript -->
+      <class name="com.anzmortgage.scripts.BorrowingCalculatorTestscript">
+        <test-method status="PASS" signature="Precondition()[pri:0, instance:com.anzmortgage.scripts.BorrowingCalculatorTestscript@4661e987]" name="Precondition" is-config="true" duration-ms="43955" started-at="2017-08-21T22:11:27Z" finished-at="2017-08-21T22:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Precondition -->
+        <test-method status="PASS" signature="TC01_VerifyBorrowingPage()[pri:0, instance:com.anzmortgage.scripts.BorrowingCalculatorTestscript@4661e987]" name="TC01_VerifyBorrowingPage" duration-ms="55442" started-at="2017-08-21T22:12:11Z" finished-at="2017-08-21T22:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_VerifyBorrowingPage -->
+        <test-method status="PASS" signature="TC02_VerifyDisplayofApplicationTypes()[pri:0, instance:com.anzmortgage.scripts.BorrowingCalculatorTestscript@4661e987]" name="TC02_VerifyDisplayofApplicationTypes" duration-ms="332" started-at="2017-08-21T22:13:07Z" finished-at="2017-08-21T22:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_VerifyDisplayofApplicationTypes -->
+        <test-method status="PASS" signature="TC05_BorrowingCalculation1()[pri:0, instance:com.anzmortgage.scripts.BorrowingCalculatorTestscript@4661e987]" name="TC05_BorrowingCalculation1" duration-ms="6099" started-at="2017-08-21T22:13:07Z" finished-at="2017-08-21T22:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_BorrowingCalculation1 -->
+        <test-method status="PASS" signature="TC06_BorrowingCalculation2()[pri:0, instance:com.anzmortgage.scripts.BorrowingCalculatorTestscript@4661e987]" name="TC06_BorrowingCalculation2" duration-ms="6394" started-at="2017-08-21T22:13:13Z" finished-at="2017-08-21T22:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_BorrowingCalculation2 -->
+        <test-method status="PASS" signature="TC07_TryingRepaymentScenarioFromBorrowingPage()[pri:0, instance:com.anzmortgage.scripts.BorrowingCalculatorTestscript@4661e987]" name="TC07_TryingRepaymentScenarioFromBorrowingPage" duration-ms="24038" started-at="2017-08-21T22:13:19Z" finished-at="2017-08-21T22:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_TryingRepaymentScenarioFromBorrowingPage -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:com.anzmortgage.scripts.BorrowingCalculatorTestscript@4661e987]" name="PostCondition" is-config="true" duration-ms="2005" started-at="2017-08-21T22:13:43Z" finished-at="2017-08-21T22:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- com.anzmortgage.scripts.BorrowingCalculatorTestscript -->
+    </test> <!-- ANZMortage Automation -->
+  </suite> <!-- ANZ Mortgage -->
+</testng-results>

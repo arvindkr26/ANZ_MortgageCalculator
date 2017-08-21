@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ANZ Mortgage]">
+  <test name="ANZMortage Automation(failed)">
+    <classes>
+      <class name="com.anzmortgage.scripts.RepaymentsCalculatorTestscript">
+        <methods>
+          <include name="TC09_VerifyScenarioComparionResult"/>
+          <include name="Precondition"/>
+          <include name="TC08_VerifyFornightlyRepayments_Scenario2"/>
+          <include name="PostCondition"/>
+          <include name="TC05_VerifyMonthlyRepayments_Scenario1"/>
+        </methods>
+      </class> <!-- com.anzmortgage.scripts.RepaymentsCalculatorTestscript -->
+    </classes>
+  </test> <!-- ANZMortage Automation(failed) -->
+</suite> <!-- Failed suite [ANZ Mortgage] -->
